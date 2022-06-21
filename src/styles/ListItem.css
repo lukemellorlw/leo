@@ -1,0 +1,38 @@
+.ListItem {
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  border-radius: 1em;
+  color: gray;
+  font-size: calc(5px + 1vmin);
+  display: inline-flex;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.game-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+
+a:hover {
+  color: var(--primary);
+  background-color: #dbe1e6;
+}
+
+.thumbnail {
+  height: 60%;
+  width: 75%;
+  background-color: bisque;
+}
