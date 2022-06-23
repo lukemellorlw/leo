@@ -7,12 +7,7 @@ interface ListItemProps {
 }
 
 function ListItem(props: ListItemProps) {
-  const { categories, gameName, gamePreviewUrl, gameThumbnail, language, slug } = props.game;
-
-  // fetch("https://"+gameThumbnail)
-  //   .then((res) => {
-  //     console.log(res)
-  //   })
+  const { gameName, gamePreviewUrl, gameThumbnail } = props.game;
 
   return (
     <div className="ListItem">
